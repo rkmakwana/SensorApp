@@ -13,6 +13,7 @@ DATABASES = { 'default': dj_database_url.config() }
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
+ALLOWED_HOSTS = [".herokuapp.com", "thawing-depths-15519.herokuapp.com"]
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
